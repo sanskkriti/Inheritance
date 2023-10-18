@@ -119,6 +119,7 @@ int main()
 {
     Fullname obj;
     return 0;
+};
 /*Output
 This is a Sanskriti Jha
 */
