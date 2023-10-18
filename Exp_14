@@ -44,7 +44,7 @@ class name{
     public:
     name()
     {
-        cout<<"This is Purvansha\n";
+        cout<<"This is Sanskriti\n";
     }
 };
 class Firstname: public name{
@@ -57,7 +57,7 @@ int main()
 
 /*
 Output
-This is Purvansha
+This is Sanskriti
 */
 
 *  
@@ -101,15 +101,15 @@ Multilevel Inheritence
 */
 #include<iostream>
 using namespace std ;
-class Purvansha
+class Sanskriti
 {
     public:
-    Purvansha()
+    Sanskriti()
     {
-        cout<<"This is a Purvansha Gehlod\n";
+        cout<<"This is a Sanskriti Jha\n";
     }
 };
-class name: public Purvansha{
+class name: public Sanskriti{
 
 };
 class Fullname : public name{
@@ -119,10 +119,8 @@ int main()
 {
     Fullname obj;
     return 0;
-
-};
 /*Output
-This is a Purvansha Gehlod
+This is a Sanskriti Jha
 */
 
 /*Exp_14
